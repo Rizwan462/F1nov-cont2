@@ -1,0 +1,355 @@
+
+
+#nav-bar>h3{
+    font-size: 29px;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#nav-bar>ul>li>a{
+    text-decoration: none;
+    color:#FFFFFF;
+    
+}
+#nav-bar>ul>li{
+   list-style: none;
+   padding-inline: 20px;
+   padding-top: 10px;
+      
+}
+#nav-bar>div>img{
+    padding: 0;
+    margin: 0;
+   
+}
+#nav-bar{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+/*#pizza-image>div>{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #000000;
+    
+}
+#pizza-image>div>img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+#pizza-image>div>div{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+*/
+#pizza-image{
+    background-image: url('./assets/backgroundhead.svg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    padding: 100px 0;
+    width: 100vw;
+    
+}
+#pizza-image>div{
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   padding: 5%;
+}
+#pizza-image>div>h1{
+    font-size: 101px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    line-height: 108px;
+}
+#pizza-image>div>div{
+    width: 520px;
+    height: 13px;
+    background-color: #F24C4C;
+    margin-bottom: 50px;
+}
+#pizza-image>div>p{
+    font-size: 28px;
+    font-weight: 400;
+    width: 520px;
+    line-height: 40px;
+    margin-bottom: 180px;
+}
+#aboutus{
+    background-color: #000000;
+    width: 100vw;
+}
+#aboutus>div>h1{
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+#line2{
+    width: 520px;
+    height: 13px;
+    background-color:#B62828;
+    margin-bottom: 50px;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#line1{
+    width: 425px;
+    height: 4px;
+    background-color:#B62828;
+    margin-top: 20px;
+}
+#about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+#about2>div,#about2>img{
+    width: 40%;
+}
+#about2>div>p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+#menu{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100vw;
+}
+#menu>div>h1{
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 80px;
+}
+#menu>div>div{
+    width: 440px;
+    height: 6px;
+    background-color: #B62828;
+}
+#menu>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu>div>p{
+    width: 80%;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.menu-text>h3{
+    color: #F2C94C;
+    font-size: 28px;
+    font-weight: 400;
+}
+.menu-text{
+    width: 22vw;
+    padding-inline: 20px;
+}
+.menu-text>p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+   
+}
+.menu-col2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.menu-col{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+#section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.menu-col2>img{
+    width: 270px;
+    height: 200px;
+}
+#crousel01{
+    background-color: #000000;
+    width: 100vw;
+}
+#crousal-head>h1{
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+#crousal-head>div{
+    width: 447px;
+    height: 9px;
+    background-color: #B62828;
+    margin-bottom: 50px;
+    align-self: center;
+}
+#crousal-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Gallary-section{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+#Gallary-head>h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+#Gallary-head>div{
+    width: 447px;
+    height: 9px;
+    background-color: #B62828;
+    margin-bottom: 50px;
+    align-self: center;
+    margin-top: 10px;
+}
+#Gallary-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.gallery-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 195px;
+    
+    
+}
+.gallary-item1>img{
+   padding-left: -10px;
+   height: 300px;
+    
+}
+.gallary-item2>img{
+    height: 100px;
+    padding-left: 10px;
+}
+.gallary-item3>img{
+    height: 150px;
+    padding-left: 10px;
+}
+#mage22{
+    margin-top: 10px;
+}
+#footer{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+#foot-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#foot-head>h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#foot-head>div{
+    width: 499px;
+    height: 9px;
+    background-color: #B62828;
+    margin-bottom: 50px;    
+    margin-top: 10px;
+}
+#foot-note1>p,
+#foot-note1>div{
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 40px;
+    
+}
+#foot-note1>p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px;
+    
+}
+#foot-note1>div>img>p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+   
+}
+#foot-note1{
+    width: 40vw;
+}
+#footnote-0{
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+}
+#around-footer,
+#foot-note-last1{
+    background-color: #000000;
+    width: 100vw;
+    
+    
+    color: #FFFFFF;
+}
+#foot-note-last1>div{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: space-evenly;
+    
+   
+}
+#around-footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+
+    
+}
+#back>img{
+    margin-inline: 80px;
+    
+}
